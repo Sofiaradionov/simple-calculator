@@ -1,6 +1,6 @@
 # Awesome Calculator
 
-![Calculator](./calculator.png)
+![Calculator](./image.png)
 
 Welcome to the Awesome Calculator GitHub repository! This repository contains the source code for an awesome and user-friendly calculator built using HTML, CSS, and JavaScript. With a sleek design and accurate calculations, this calculator is perfect for all your mathematical needs.
 
