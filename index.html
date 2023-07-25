@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>10</title>
+  <link href="./CSS/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <br><br>
+    <h1>Calculator</h1><br>
+  <div class="container">
+    <div class="calculator">
+    <div class="row">
+      <input id="display" class="input" type="text" placeholder="0"/>
+    </div>
+    <div class="row">
+      <button class="button gray" onclick="clearAll()">AC</button>
+      <button class="button gray" onclick="clearCharacter()">C</button>
+      <button class="button gray" onclick="calculatePercentage()">%</button>
+      <button class="button orange" onclick="appendCharacter('*')">x</button>
+    </div>
+    <div class="row">
+      <button class="button" onclick="appendCharacter('7')">7</button>
+      <button class="button" onclick="appendCharacter('8')">8</button>
+      <button class="button" onclick="appendCharacter('9')">9</button>
+      <button class="button orange" onclick="appendCharacter('/')">/</button>
+    </div>
+    <div class="row">
+      <button class="button" onclick="appendCharacter('4')">4</button>
+      <button class="button" onclick="appendCharacter('5')">5</button>
+      <button class="button" onclick="appendCharacter('6')">6</button>
+      <button class="button orange" onclick="appendCharacter('+')">+</button>
+    </div>
+    <div class="row">
+      <button class="button" onclick="appendCharacter('1')">1</button>
+      <button class="button" onclick="appendCharacter('2')">2</button>
+      <button class="button" onclick="appendCharacter('3')">3</button>
+      <button class="button orange" onclick="appendCharacter('-')">-</button>
+    </div>
+    <div class="row end">
+      <button class="button zero" onclick="appendCharacter('0')">0</button>
+      <button class="button" onclick="appendCharacter(',')">.</button>
+      <button class="button orange" onclick="calculate()">=</button>
+    </div>
+  </div>
+  </div>
+  <script src="./JS/main.js"></script>
+</body>
+
+</html>
